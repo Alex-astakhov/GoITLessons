@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1467920842290" stop="1467920870332" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : KismiaMVN</name>
+    <title>Default Suite : KismiaMVN</title>
+    <test-cases>
+        <test-case start="1467920862696" stop="1467920868480" status="passed">
+            <name>changeEducation[3]</name>
+            <steps>
+                <step start="1467920848504" stop="1467920859007" status="passed">
+                    <name>login[bevov@divismail.ru, ahtung]</name>
+                    <title>Login procedure with email: bevov@divismail.ru and password: ahtung</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1467920848509" stop="1467920853442" status="passed">
+                            <name>openPage</name>
+                            <title>Open index page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467920853453" stop="1467920853897" status="passed">
+                            <name>type[By.id: user-email, bevov@divismail.ru]</name>
+                            <title>Type to bevov@divismail.ru field By.id: user-email</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467920853900" stop="1467920854138" status="passed">
+                            <name>type[By.id: user-password, ahtung]</name>
+                            <title>Type to ahtung field By.id: user-password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467920854141" stop="1467920854260" status="passed">
+                            <name>clickSubmit</name>
+                            <title>Click SUBMIT button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467920859009" stop="1467920862466" status="passed">
+                    <name>openPage</name>
+                    <title>Open profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467920862700" stop="1467920863000" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467920863002" stop="1467920863520" status="passed">
+                    <name>setEducation[3]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467920863128" stop="1467920863520" status="passed">
+                            <name>chooseFromDropList[By.name: education, 3]</name>
+                            <title>Choose 3 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467920863522" stop="1467920863663" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467920868107" stop="1467920868407" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467920868409" stop="1467920868469" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="8284@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

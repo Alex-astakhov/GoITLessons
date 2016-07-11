@@ -1,0 +1,3 @@
+mvn test -Dsuite=xmls\userGender.xml -Demail=bevov@divismail.ru -Dpasswd=ahtung
+mvn test -Dsuite=xmls\userBirthDate.xml -Demail=bevov@divismail.ru -Dpasswd=ahtung -Dyear=1991 -Dmonth=05 -Dday=20
+mvn test -Dsuite=xmls\profile.xml -Demail=bevov@divismail.ru -Dpasswd=ahtung -Deducation=3

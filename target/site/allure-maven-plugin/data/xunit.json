@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1467749251659,
+    "stop" : 1467749256279,
+    "duration" : 4620
+  },
+  "testSuites" : [ {
+    "uid" : "7325063781d2b062",
+    "name" : "Default Suite : kismia",
+    "title" : "Default Suite : kismia",
+    "time" : {
+      "start" : 1467749251659,
+      "stop" : 1467749256279,
+      "duration" : 4620
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "62e00feb458e616f",
+      "name" : "testAboutProject",
+      "title" : "Test about project",
+      "time" : {
+        "start" : 1467749251659,
+        "stop" : 1467749256279,
+        "duration" : 4620
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <classes>
+      <class name="footer.FooterLinks"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="footer.FooterLinks">
+        <methods>
+          <include name="testTips"/>
+          <include name="testStories"/>
+          <include name="testPartnershipProg"/>
+          <include name="testAboutProject"/>
+          <include name="testPrivacy"/>
+          <include name="tearDown"/>
+          <include name="testContetnRules"/>
+          <include name="testContacts"/>
+          <include name="testSupport"/>
+          <include name="setupChrome"/>
+        </methods>
+      </class> <!-- footer.FooterLinks -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

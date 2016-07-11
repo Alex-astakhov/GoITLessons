@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1467914369374" stop="1467914387588" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : KismiaMVN</name>
+    <title>Default Suite : KismiaMVN</title>
+    <test-cases>
+        <test-case start="1467914386748" stop="1467914387578" status="passed">
+            <name>changeEducation[2]</name>
+            <steps>
+                <step start="1467914374105" stop="1467914383455" status="passed">
+                    <name>login[bevov@divismail.ru, ahtung]</name>
+                    <title>Login procedure with email: bevov@divismail.ru and password: ahtung</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1467914374110" stop="1467914378430" status="passed">
+                            <name>openPage</name>
+                            <title>Open index page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467914378434" stop="1467914378818" status="passed">
+                            <name>type[By.id: user-email, bevov@divismail.ru]</name>
+                            <title>Type to bevov@divismail.ru field By.id: user-email</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467914378821" stop="1467914379079" status="passed">
+                            <name>type[By.id: user-password, ahtung]</name>
+                            <title>Type to ahtung field By.id: user-password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467914379082" stop="1467914379231" status="passed">
+                            <name>clickSubmit</name>
+                            <title>Click SUBMIT button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467914383457" stop="1467914386697" status="passed">
+                    <name>openPage</name>
+                    <title>Open profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467914386751" stop="1467914386969" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467914386972" stop="1467914387275" status="passed">
+                    <name>setEducation[2]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467914387126" stop="1467914387275" status="passed">
+                            <name>chooseFromDropList[By.name: education, 2]</name>
+                            <title>Choose 2 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467914387277" stop="1467914387453" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467914387455" stop="1467914387571" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="1992@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

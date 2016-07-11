@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "62e00feb458e616f",
+    "name" : "testAboutProject",
+    "title" : "Test about project",
+    "time" : {
+      "start" : 1467749251659,
+      "stop" : 1467749256279,
+      "duration" : 4620
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  } ]
+}

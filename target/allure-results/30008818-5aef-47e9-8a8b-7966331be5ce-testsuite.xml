@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1467910082173" stop="1467910101332" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : KismiaMVN</name>
+    <title>Default Suite : KismiaMVN</title>
+    <test-cases>
+        <test-case start="1467910099823" stop="1467910100408" status="passed">
+            <name>changeEducation[1]</name>
+            <steps>
+                <step start="1467910086812" stop="1467910096761" status="passed">
+                    <name>login[bevov@divismail.ru, ahtung]</name>
+                    <title>Login procedure with email: bevov@divismail.ru and password: ahtung</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1467910086818" stop="1467910091332" status="passed">
+                            <name>openPage</name>
+                            <title>Open index page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467910091337" stop="1467910091744" status="passed">
+                            <name>type[By.id: user-email, bevov@divismail.ru]</name>
+                            <title>Type to bevov@divismail.ru field By.id: user-email</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467910091747" stop="1467910092007" status="passed">
+                            <name>type[By.id: user-password, ahtung]</name>
+                            <title>Type to ahtung field By.id: user-password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467910092009" stop="1467910092173" status="passed">
+                            <name>clickSubmit</name>
+                            <title>Click SUBMIT button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467910096763" stop="1467910099743" status="passed">
+                    <name>openPage</name>
+                    <title>Open profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467910099828" stop="1467910100077" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467910100079" stop="1467910100272" status="passed">
+                    <name>setEducation[1]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467910100081" stop="1467910100272" status="passed">
+                            <name>chooseFromDropList[By.name: education, 1]</name>
+                            <title>Choose 1 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467910100275" stop="1467910100404" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="5256@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1467910100416" stop="1467910100936" status="passed">
+            <name>changeEducation[2]</name>
+            <steps>
+                <step start="1467910100419" stop="1467910100591" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467910100594" stop="1467910100840" status="passed">
+                    <name>setEducation[2]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467910100596" stop="1467910100840" status="passed">
+                            <name>chooseFromDropList[By.name: education, 2]</name>
+                            <title>Choose 2 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467910100842" stop="1467910100936" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="5256@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1467910100938" stop="1467910101324" status="passed">
+            <name>changeEducation[3]</name>
+            <steps>
+                <step start="1467910100940" stop="1467910101089" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467910101092" stop="1467910101250" status="passed">
+                    <name>setEducation[3]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467910101094" stop="1467910101250" status="passed">
+                            <name>chooseFromDropList[By.name: education, 3]</name>
+                            <title>Choose 3 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467910101253" stop="1467910101324" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="5256@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

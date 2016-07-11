@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1467921225836" stop="1467921265230" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : KismiaMVN</name>
+    <title>Default Suite : KismiaMVN</title>
+    <test-cases>
+        <test-case start="1467921244754" stop="1467921249209" status="passed">
+            <name>changeEducation[0]</name>
+            <steps>
+                <step start="1467921231055" stop="1467921241549" status="passed">
+                    <name>login[bevov@divismail.ru, ahtung]</name>
+                    <title>Login procedure with email: bevov@divismail.ru and password: ahtung</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1467921231061" stop="1467921235075" status="passed">
+                            <name>openPage</name>
+                            <title>Open index page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467921235080" stop="1467921235587" status="passed">
+                            <name>type[By.id: user-email, bevov@divismail.ru]</name>
+                            <title>Type to bevov@divismail.ru field By.id: user-email</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467921235590" stop="1467921235921" status="passed">
+                            <name>type[By.id: user-password, ahtung]</name>
+                            <title>Type to ahtung field By.id: user-password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1467921235923" stop="1467921236062" status="passed">
+                            <name>clickSubmit</name>
+                            <title>Click SUBMIT button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467921241555" stop="1467921244674" status="passed">
+                    <name>openPage</name>
+                    <title>Open profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921244758" stop="1467921245000" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921245003" stop="1467921245417" status="passed">
+                    <name>setEducation[0]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467921245136" stop="1467921245417" status="passed">
+                            <name>chooseFromDropList[By.name: education, 0]</name>
+                            <title>Choose 0 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467921245420" stop="1467921245534" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921245726" stop="1467921249197" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="620@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1467921249216" stop="1467921253260" status="passed">
+            <name>changeEducation[1]</name>
+            <steps>
+                <step start="1467921249218" stop="1467921249531" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921249534" stop="1467921249816" status="passed">
+                    <name>setEducation[1]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467921249627" stop="1467921249816" status="passed">
+                            <name>chooseFromDropList[By.name: education, 1]</name>
+                            <title>Choose 1 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467921249817" stop="1467921249907" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921250009" stop="1467921253259" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="620@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1467921253263" stop="1467921257045" status="passed">
+            <name>changeEducation[2]</name>
+            <steps>
+                <step start="1467921253265" stop="1467921253463" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921253465" stop="1467921253751" status="passed">
+                    <name>setEducation[2]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467921253536" stop="1467921253751" status="passed">
+                            <name>chooseFromDropList[By.name: education, 2]</name>
+                            <title>Choose 2 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467921253755" stop="1467921253884" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921253999" stop="1467921257045" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="620@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1467921257046" stop="1467921260427" status="passed">
+            <name>changeEducation[3]</name>
+            <steps>
+                <step start="1467921257049" stop="1467921257251" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921257253" stop="1467921257503" status="passed">
+                    <name>setEducation[3]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467921257319" stop="1467921257503" status="passed">
+                            <name>chooseFromDropList[By.name: education, 3]</name>
+                            <title>Choose 3 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467921257504" stop="1467921257590" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921257695" stop="1467921260427" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="620@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1467921260429" stop="1467921263817" status="passed">
+            <name>changeEducation[4]</name>
+            <steps>
+                <step start="1467921260430" stop="1467921260622" status="passed">
+                    <name>clickEditUserInfo</name>
+                    <title>Click EDIT USER INFO</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921260624" stop="1467921260869" status="passed">
+                    <name>setEducation[4]</name>
+                    <attachments/>
+                    <steps>
+                        <step start="1467921260691" stop="1467921260869" status="passed">
+                            <name>chooseFromDropList[By.name: education, 4]</name>
+                            <title>Choose 4 from drop down list By.name: education</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1467921260871" stop="1467921260975" status="passed">
+                    <name>clickUserInfoSave</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1467921261103" stop="1467921263817" status="passed">
+                    <name>getEducation</name>
+                    <title>Read current education</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="ALEX"/>
+                <label name="thread" value="620@ALEX.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

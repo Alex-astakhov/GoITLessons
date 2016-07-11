@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <listeners>
+    <listener class-name="myListeners.ListenerConsolLog"/>
+  </listeners>
+  <test name="kismia">
+    <classes>
+      <class name="profile.ChangeProfileInfo"/>
+    </classes>
+  </test>
+</suite>

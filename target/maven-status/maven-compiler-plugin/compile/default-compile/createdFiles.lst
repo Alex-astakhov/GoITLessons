@@ -1,0 +1,13 @@
+pageObjects\ProfilePage.class
+pageObjects\HeaderBlock.class
+core\MethodFactory.class
+myListeners\ListenerFileLog.class
+pageObjects\ProfileSettingsPage.class
+core\BrowserFactory.class
+pageObjects\FooterBlock.class
+pageObjects\MenuBlock.class
+myListeners\ListenerWithScreenShot.class
+pageObjects\IndexPage.class
+myListeners\ListenerWithBrowserShot.class
+pageObjects\LanguageBlock.class
+myListeners\ListenerConsolLog.class

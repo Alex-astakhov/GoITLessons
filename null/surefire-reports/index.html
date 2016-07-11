@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 8 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testAboutProject">testAboutProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testContacts">testContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testContetnRules">testContetnRules</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testPartnershipProg">testPartnershipProg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testPrivacy">testPrivacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testStories">testStories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testSupport">testSupport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="footer.FooterLinks" hash-for-method="testTips">testTips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">footer.FooterLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAboutProject">
+                  </a> <!-- testAboutProject -->
+                  <span class="method-name">testAboutProject</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@href,&apos;/info/about&apos;)]&quot;}
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/info/about&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickAboutProject(FooterBlock.java:20)
+	at footer.FooterLinks.testAboutProject(TestFooterLinks.java:18)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContacts">
+                  </a> <!-- testContacts -->
+                  <span class="method-name">testContacts</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at pageObjects.FooterBlock.clickContacts(FooterBlock.java:40)
+	at footer.FooterLinks.testContacts(TestFooterLinks.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContetnRules">
+                  </a> <!-- testContetnRules -->
+                  <span class="method-name">testContetnRules</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/info/mterms&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickContentRules(FooterBlock.java:45)
+	at footer.FooterLinks.testContetnRules(TestFooterLinks.java:47)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPartnershipProg">
+                  </a> <!-- testPartnershipProg -->
+                  <span class="method-name">testPartnershipProg</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/info/partners&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickPartnershipProgram(FooterBlock.java:55)
+	at footer.FooterLinks.testPartnershipProg(TestFooterLinks.java:59)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrivacy">
+                  </a> <!-- testPrivacy -->
+                  <span class="method-name">testPrivacy</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/info/privacy&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickPrivacyPolicy(FooterBlock.java:50)
+	at footer.FooterLinks.testPrivacy(TestFooterLinks.java:53)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStories">
+                  </a> <!-- testStories -->
+                  <span class="method-name">testStories</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/info/stories&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickHappyStories(FooterBlock.java:35)
+	at footer.FooterLinks.testStories(TestFooterLinks.java:36)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSupport">
+                  </a> <!-- testSupport -->
+                  <span class="method-name">testSupport</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/support&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickSupport(FooterBlock.java:25)
+	at footer.FooterLinks.testSupport(TestFooterLinks.java:24)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTips">
+                  </a> <!-- testTips -->
+                  <span class="method-name">testTips</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=51.0.2704.106)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ALEX&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ALEXAS~1\AppData\Local\Temp\scoped_dir8832_15737}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7702357d43e8e69a2e1f844da4ac0aee
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;/info/tips&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.FooterBlock.clickTips(FooterBlock.java:30)
+	at footer.FooterLinks.testTips(TestFooterLinks.java:30)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;footer.FooterLinks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAboutProject')
+data.setCell(0, 2, 'footer.FooterLinks')
+data.setCell(0, 3, 30043);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testContacts')
+data.setCell(1, 2, 'footer.FooterLinks')
+data.setCell(1, 3, 3927);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testTips')
+data.setCell(2, 2, 'footer.FooterLinks')
+data.setCell(2, 3, 14);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPrivacy')
+data.setCell(3, 2, 'footer.FooterLinks')
+data.setCell(3, 3, 13);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPartnershipProg')
+data.setCell(4, 2, 'footer.FooterLinks')
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSupport')
+data.setCell(5, 2, 'footer.FooterLinks')
+data.setCell(5, 3, 6);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testContetnRules')
+data.setCell(6, 2, 'footer.FooterLinks')
+data.setCell(6, 3, 6);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testStories')
+data.setCell(7, 2, 'footer.FooterLinks')
+data.setCell(7, 3, 5);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">footer.FooterLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupChrome</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAboutProject</span>
+                <span class="method-start">2565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testContacts</span>
+                <span class="method-start">32638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testContetnRules</span>
+                <span class="method-start">36567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPartnershipProg</span>
+                <span class="method-start">36581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPrivacy</span>
+                <span class="method-start">36595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testStories</span>
+                <span class="method-start">36618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSupport</span>
+                <span class="method-start">36633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTips</span>
+                <span class="method-start">36654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36674 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
